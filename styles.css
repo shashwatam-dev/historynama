@@ -1,0 +1,100 @@
+   body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: linear-gradient(to top, #df6e6e, teal);
+            color: white;
+            padding: 20px;
+        }
+
+    .logo{
+            width: 200px;
+            float: left;
+            border-radius: 100rex;
+
+       }
+
+    .group-head{
+            margin: 30px auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.096);
+            border-radius: 10px;
+            display: inline-block;
+            width: 90%;
+        }
+
+    .group-head{
+            transform: none;
+            box-shadow: 0px 0px 20px rgb(250, 225, 2);
+        }
+    .group-head:hover {
+            transform: none;
+            box-shadow: 0px 0px 20px rgb(250, 2, 2);
+        }
+
+
+    .group-head-content .h1{
+            font-size: 100px;
+            font-family: Papyrus;
+            font-weight: bold;
+
+        /* Image Beside Text */ 
+    
+            background-image: url(assets/logo.jpg), url(assets/2.jpg);
+            background-size: cover;
+            background-position: center;
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            margin-bottom: 20px;
+    }
+    .p{
+            font-size: 20px;
+            font-family: Papyrus;
+        }
+
+    .group {
+            margin: 30px auto;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            display: inline-block;
+            width: 60%;
+
+        }
+
+    .group-title {
+            font-size: 30px;
+            font-family: Papyrus;
+            font-weight: bold;
+            margin-bottom: 20px;
+
+        }
+
+    .container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+    .image-box {
+            position: relative;
+            width: 150px;
+            height: 150px;
+            overflow: hidden;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+
+    .image-box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+     .image-box:hover {
+            transform: scale(1.1);
+            box-shadow: 0px 0px 10px rgba(250, 2, 2, 0.7);
+        }
