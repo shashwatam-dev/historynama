@@ -39,7 +39,7 @@
 
         /* Image Beside Text */ 
     
-            background-image: url(assets/logo.jpg), url(assets/2.jpg);
+            background-image: url(assets/logo.jpg);
             background-size: cover;
             background-position: center;
             background-clip: text;
